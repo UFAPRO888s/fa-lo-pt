@@ -106,7 +106,7 @@ reflottoX1.on("child_changed", async (snapshot) => {
       number2_lotto: numLotto.number?.[1],
     };
   });
-  ggx1img(lottoRex3, snapshot.val()[0]);
+  ggx1img(lottoRex3, snapshot.val());
 });
 
 async function ggx1img(Rex3, dataLotto) {
